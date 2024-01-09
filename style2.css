@@ -1,0 +1,1069 @@
+.membership-plan {
+    height: 150px;
+    width: 100%;
+    margin: 180px 0px 80px 0px;
+    display: flex;
+}
+
+/* margin 180px due to margin collapse */
+
+.membership-plan .membership-plan_h2 {
+    height: 100%;
+    width: 35%;
+    margin-left: 5%;
+}
+
+.membership-plan .membership-plan_h2 h2 {
+    font-size: 52px;
+    color: #4c5051;
+    font-weight: 700;
+    font-family: sofia-pro, sans-serif;
+    padding-top: 15px;
+
+}
+
+.membership-plan .membership-plan_price {
+    height: 230px;
+    width: 60%;
+}
+
+.membership-plan .membership-plan_price p {
+    font-size: 21px;
+    color: #545554;
+    font-weight: 400;
+    font-family: "pt-serif";
+    padding-top: 15px;
+    margin-left: 100px;
+}
+
+.membership-plan .membership-plan_price button {
+    height: 65px;
+    width: 280px;
+    border: none;
+    border-radius: 50px;
+    background-color: #FB625A;
+    text-align: center;
+    margin: 40px 0px 0px 100px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.membership-plan .membership-plan_price button a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "sofia-pro", sans-serif;
+    color: #FFF;
+}
+
+.membership-plan .membership-plan_price button:hover {
+    text-decoration: underline 2px #fff;
+    background-color: #fa7069;
+}
+
+.yoga-banner {
+    height: 269px;
+    width: 100%;
+    padding: 60px 0px;
+    display: flex;
+}
+
+.yoga-banner1,
+.yoga-banner2,
+.yoga-banner3,
+.yoga-banner4,
+.yoga-banner5 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.make-yoga-partner {
+    height: 645px;
+    width: 100%;
+    margin-top: 67px;
+    /* margin-bottom: 67px; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.make-yoga-partner_left-content {
+    height: 323px;
+    width: 30%;
+    position: absolute;
+    top: 165px;
+    left: 75px;
+}
+
+.make-yoga-partner_left-content h2 {
+    color: #08656E;
+    font-size: 52px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 65px;
+    font-family: "sofia-pro", sans-serif;
+}
+
+.make-yoga-partner_left-content p {
+    color: #989898;
+    width: 60%;
+    margin-top: 31px;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: "pt-serif";
+}
+
+.make-yoga-partner_right-content {
+    height: 200px;
+    width: 20%;
+    position: absolute;
+    top: 160px;
+    right: 45px;
+}
+
+.make-yoga-partner_right-content button {
+    display: block;
+    height: 65px;
+    width: 250px;
+    border: none;
+    border-radius: 50px;
+    background-color: #FB625A;
+    text-align: center;
+    margin: 18px auto;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.make-yoga-partner_right-content button:hover {
+    background-color: #fc837c;
+    text-decoration: underline 2px #fff;
+}
+
+.make-yoga-partner_right-content button a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "sofia-pro", sans-serif;
+    color: #FFF;
+}
+
+.make-yoga-partner_right-content p {
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+    color: #545554;
+    font-size: 15px;
+    font-family: "sofia-pro", sans-serif;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.bgimg {
+    height: 710px;
+    width: 250px;
+    background-image: url(/img/whyekharticon4.png);
+    background-size: cover;
+    background-position: left;
+    position: absolute;
+    right: 0;
+    bottom: 10px0;
+}
+
+.footer_content {
+    height: 500px;
+    width: 100%;
+    background-color: #f4f4f4;
+    padding: 130px 0px 130px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer_content1,
+.footer_content2,
+.footer_content3,
+.footer_content4,
+.footer_content5,
+.footer_content6 {
+    height: 240px;
+    width: 16%;
+}
+
+.d-class ul li {
+    list-style: none;
+    height: 30px;
+    width: 100%;
+}
+
+.d-class ul .ul-heading {
+    color: #545554;
+    height: 40px;
+    padding: 5px 0px 0px 15px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-family: "sofia-pro", sans-serif;
+    font-weight: 500;
+}
+
+
+.d-class li a {
+    padding-left: 15px;
+    text-decoration: none;
+    color: #727272;
+    font-size: 19px;
+    font-family: "sofia-pro";
+}
+
+.size-padding ul .ul-heading,
+.size-padding li a {
+    padding-left: 0px;
+}
+
+.footer_copyright-section {
+    height: 126px;
+    width: 100%;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(220, 220, 220);
+}
+
+.footer_copyright-section p {
+    color: #A9AAA9;
+    height: 30px;
+    width: auto;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+@media only screen and (max-width:480px) and (min-width:310px) {
+    header {
+        height: 60px;
+        padding: 0px;
+        border-bottom: 1px solid rgb(225, 231, 231);
+        position: sticky;
+        top: 0px;
+        left: 0px;
+        background-color: #fff;
+        align-items: center;
+    }
+
+    header .icon .f-icon {
+        height: 2px;
+        width: 60%;
+        background-color: rgb(87, 84, 84);
+        border-radius: 40%;
+        position: absolute;
+    }
+
+    header .icon {
+        height: 50px;
+        width: 50px;
+        position: relative;
+        display: flex;
+        justify-content: flex-start;
+        /* display: block; */
+    }
+
+    header .icon .first {
+        top: 30%;
+    }
+
+    header .icon .second {
+        top: 50%;
+        width: 60%;
+    }
+
+    header .icon .third {
+        top: 70%;
+        width: 60%;
+    }
+
+    header .icon .fourth {
+        top: 80%;
+        display: none;
+    }
+
+    .header_logo {
+        display: flex;
+        width: 15%;
+        height: 100%;
+        justify-content: flex-start;
+        padding: 5px 0px 0px 5px;
+    }
+
+    .header_logo img {
+        padding: 0px;
+        width: 160%;
+        height: 100%;
+    }
+
+    .header_sign {
+        width: 110px;
+        margin: 0px 0px 0px -10px;
+    }
+
+    .header_btn {
+        height: 25px;
+        font-size: 13px;
+    }
+
+    .header_ul {
+        display: none;
+        position: relative;
+        width: 30%;
+        border-radius: 10px;
+        flex-direction: column;
+        flex-basis: 0%;
+        margin: 7px 0px 0px 0px;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 15px 0px 20px 10px;
+    }
+
+    .header_ul li {
+        width: auto;
+        margin: 16px 0px 0px 0px;
+        list-style: square;
+        list-style-position: inside;
+        transition: 2s;
+    }
+
+    .header_ul li a {
+        font-size: 14px;
+        font-weight: 600;
+        color: rgb(113, 154, 243);
+    }
+
+    .homepage {
+        margin-top: 0px;
+        padding-top: 40px;
+        background-color: #fff;
+    }
+
+    .homepage_p {
+        margin-bottom: 50px;
+        padding: 5px 15px;
+        width: 100%;
+    }
+
+    .homepage_p p {
+        font-size: 16px;
+        text-align: center;
+        line-height: 28px;
+    }
+
+    .homepage .homepage_h2 {
+        display: none;
+    }
+
+    .homepage_btn .trialbtn {
+        display: block;
+        height: 50px;
+        width: 170px;
+        padding: 0px;
+    }
+
+    .homepage_btn button a {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .main_yogadescription {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 450px;
+        top: 370px;
+        width: 100%;
+        margin: 0px 0px 0px 0%;
+    }
+
+    .yogadescription_item1,
+    .yogadescription_item2,
+    .yogadescription_item3 {
+        width: 99%;
+        height: 28%;
+        margin: 0px auto;
+        border: 1px solid rgb(175, 175, 171);
+        border-top-right-radius: 20px;
+    }
+
+    .yogadescription_item1 img,
+    .yogadescription_item2 img,
+    .yogadescription_item3 img {
+        opacity: 90%;
+        width: 100%;
+        left: 0;
+    }
+
+    .yogadescription_item1 .item1btn,
+    .yogadescription_item2 .item2btn,
+    .yogadescription_item3 .item3btn {
+        left: 27%;
+        top: 82%;
+        width: 115px;
+        height: 25px;
+        background-color: #fff;
+        border: 1px solid rgb(232, 248, 5);
+
+    }
+
+    .yogadescription_item1 .item1btn p,
+    .yogadescription_item2 .item2btn p,
+    .yogadescription_item3 .item3btn p {
+        font-size: 13px;
+        font-weight: 400;
+        color: #0C646F;
+    }
+
+    .yogadescription_item1 .item1_content,
+    .yogadescription_item2 .item2_content,
+    .yogadescription_item3 .item3_content {
+        font-size: 13px;
+        left: 18%;
+        top: 68%;
+        font-weight: 700;
+        color: #0a5555;
+    }
+
+    .section1_h2 {
+        display: none;
+    }
+
+    .section1_content {
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .section1_description {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .description_up {
+        margin-top: 100px;
+    }
+
+    .description_down {
+        margin-top: 5px;
+        padding: 0px 10px;
+    }
+
+    .description_up p {
+        font-size: 14px;
+        line-height: 22px;
+        padding: 0px 10px 10px 10px;
+        text-align: justify;
+        color: #645f5f;
+    }
+
+    .description_down p {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: justify;
+        color: rgb(83, 80, 80);
+    }
+
+    .section1_btn .description_btn {
+        width: 180px;
+        height: 50px;
+        margin: 30px auto 0px auto;
+        padding: 0px;
+
+    }
+
+    .section1_btn .description_btn a {
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .section1_cards {
+        flex-direction: column;
+        height: 600px;
+        justify-content: space-between;
+        margin-top: 140px;
+    }
+
+    .section1_card1,
+    .section1_card2,
+    .section1_card3 {
+        width: 100%;
+        margin: 0px auto 10px;
+        border: 1px solid rgb(128, 124, 124);
+        height: 150px;
+    }
+
+    .section1_card1 img,
+    .section1_card2 img,
+    .section1_card3 img {
+        width: 100%;
+        left: 0px;
+    }
+
+    .card1_content h4,
+    .card2_content h4,
+    .card3_content h4 {
+        display: none;
+    }
+
+    .section1_cards span {
+        position: relative;
+        top: 110%;
+        left: -7%;
+        color: rgb(10, 73, 25);
+    }
+
+    .section1_cards button {
+        position: absolute;
+        background-color: rgb(241, 199, 199);
+        top: 102%;
+        right: 5%;
+    }
+
+    .main_section2 {
+        /* background-color: red; */
+        flex-direction: column;
+        margin-top: 160px;
+    }
+
+    .section2_left {
+        /* background-color: aqua; */
+        width: 100%;
+        padding: 30px 10px 10px 10px;
+    }
+
+    .section2_left h2 {
+        width: 100%;
+        font-size: 24px;
+        line-height: 40px;
+        margin: 0px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .section2_right {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .section2_right .content {
+        margin: 0px;
+        width: 100%;
+        padding: 20px 2px 10px 2px;
+        text-align: center;
+        line-height: 15px;
+    }
+
+    .section2_right .content p {
+        font-size: 18px;
+    }
+
+    .section2_btn button {
+        margin: 15px 20px 0px 30%;
+        height: 40px;
+        width: 45%;
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section2_btn button a {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .main_section3 {
+        flex-direction: column;
+        margin-top: 160px;
+    }
+
+    .section3_left {
+        order: 2;
+        width: 100%;
+        height: auto;
+        margin: 0px 0px 105px 0px;
+    }
+
+    .section3_left_h2 {
+        width: 100%;
+        margin: 0px 0px 30px;
+        padding: 15px 0px;
+    }
+
+    .section3_left_h2 h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .section3_left .section3_cards {
+        width: 100%;
+        margin: 0px;
+        justify-content: space-evenly;
+        background-color: #d6e5e3;
+    }
+
+    .section3_cards_a {
+        margin: 0%;
+        /* background-color: rgb(206, 245, 147); */
+    }
+
+    .section3_card1_content,
+    .section3_card2_content,
+    .section3_card3_content,
+    .section3_card4_content,
+    .section3_card5_content,
+    .section3_card6_content {
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .section3_card1_content h4,
+    .section3_card2_content h4,
+    .section3_card3_content h4,
+    .section3_card4_content h4,
+    .section3_card5_content h4,
+    .section3_card6_content h4 {
+        font-size: 16px;
+        font-weight: 600;
+        width: 100%;
+        text-align: center;
+    }
+
+    .section3_card1_content p,
+    .section3_card2_content p,
+    .section3_card3_content p,
+    .section3_card4_content p,
+    .section3_card5_content p,
+    .section3_card6_content p {
+        font-size: 15px;
+        width: 100%;
+        text-align: center;
+        margin: 0px 5px;
+    }
+
+    .section3_right {
+        order: 1;
+        width: 100%;
+        height: auto;
+        border: 1px solid rgb(221, 235, 25);
+        border-radius: 5px;
+
+    }
+
+    .secton3_right_content {
+        width: 100%;
+        height: 60%;
+        margin: 20px 0px 0px 0px;
+    }
+
+    .secton3_right_content h2 {
+        font-size: 22px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .secton3_right_content p {
+        width: 100%;
+        font-size: 17px;
+        text-align: center;
+        padding: 0px 20px 0px 0px;
+    }
+
+    .section3_btn {
+        width: 120px;
+        height: 80px;
+        margin: 40px auto 0px auto;
+        padding: 8px;
+        transition: .5s;
+    }
+
+    .section3_btn:hover {
+        box-shadow: 1px 1px 2px 2px #07f1c3;
+        background-color: #07f1c3;
+    }
+
+    .section3_btn a {
+        font-size: 16px;
+    }
+
+    .bgimage,
+    .bg-img {
+        display: none;
+    }
+
+    .section4_reviews {
+        margin: 100px 0px 0px 0px;
+    }
+
+    .reviews_h2 {
+        width: 100%;
+        padding: 25px 10px;
+    }
+
+    .reviews_h2 h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 36px;
+    }
+
+    .section4_slider {
+        flex-direction: column;
+        margin: 0px;
+    }
+
+    .section4_slider {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .reviews_box1,
+    .reviews_box2,
+    .reviews_box3,
+    .reviews_box4,
+    .reviews_box5,
+    .reviews_box6 {
+        width: 98%;
+        margin: 0px 1%;
+        height: auto;
+        border: 1px solid rgb(201, 198, 198);
+    }
+
+    .reviews_box1,
+    .reviews_box2,
+    .reviews_box6 {
+        display: none;
+    }
+
+    .reviews_text {
+        border: none;
+        height: auto;
+        margin: 30px 0px;
+        padding: 0px 30px;
+    }
+
+    .reviews_text p {
+        padding: 0px;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .reviews_author-info {
+        height: 60px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .reviews_author-info .img {
+        height: 50px;
+        margin: 0px 0px 0px 10px;
+    }
+
+    .reviews_author-info .img p {
+        font-size: 22px;
+    }
+
+    .reviews_author-info .longer-since {
+        height: 60px;
+        width: 87%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0px 0px 10px;
+    }
+
+    .longer-since .span1 {
+        font-size: 17px;
+    }
+
+    .longer-since .span2,
+    .span3 {
+        color: #a9aaa9;
+        font-family: 'pt-serif';
+        font-size: 15px;
+        margin: 0px 0px 0px 13px;
+    }
+
+    .why-yoga {
+        display: none;
+    }
+
+    .yoga-teachers {
+        height: auto;
+        margin: 500px 0px 85px 0px;
+        flex-direction: column;
+    }
+
+    .left-content {
+        height: auto;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .left-content h2 {
+        width: 100%;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .left-content p {
+        width: 100%;
+        font-size: 15px;
+        line-height: 25px;
+        font-weight: 400;
+        padding: 20px 30px 0px 30px;
+        text-align: justify;
+    }
+
+    .teachers-info {
+        height: auto;
+        width: 96%;
+        margin: 40px auto;
+        justify-content: center;
+        padding: 0px 10px;
+    }
+
+    .teachers-info a {
+        height: 70px;
+        width: 70px;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .teachers-info a img {
+        border: 1px solid rgb(58, 59, 57);
+        height: 90%;
+        width: 90%;
+    }
+
+    .teachers-info .last-item {
+        height: 70px;
+        width: 70px;
+    }
+
+    .teachers-info .last-item a {
+        height: 90%;
+        width: 90%;
+        background-color: #d4e6e4;
+        border-radius: 50%;
+        text-decoration: none;
+        border: 1px solid rgb(58, 59, 57);
+    }
+
+    .teachers-info .last-item a p {
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    .membership-plan {
+        height: auto;
+        margin: -50px 0px 80px 0px;
+        flex-direction: column;
+    }
+
+    .membership-plan .membership-plan_h2 {
+        height: auto;
+        width: 100%;
+        margin: 0;
+    }
+
+    .membership-plan .membership-plan_h2 h2 {
+        font-size: 30px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .membership-plan .membership-plan_price {
+        height: auto;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .membership-plan .membership-plan_price p {
+        font-size: 17px;
+        padding-top: 15px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .membership-plan .membership-plan_price button {
+        display: block;
+        height: 45px;
+        width: 190px;
+        margin: 30px auto 0px;
+        padding: 10px 0px;
+        transition: .2s;
+    }
+
+    .membership-plan .membership-plan_price button a {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .membership-plan .membership-plan_price button:hover {
+        box-shadow: 2px 2px 5px 5px #f75f58;
+    }
+
+    .yoga-banner {
+        height: auto;
+        padding: 0px;
+    }
+
+    .yoga-banner1,
+    .yoga-banner2,
+    .yoga-banner3,
+    .yoga-banner4,
+    .yoga-banner5 {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .display-none,
+    .bgimg {
+        display: none;
+    }
+
+    .make-yoga-partner {
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .make-yoga-partner img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .make-yoga-partner_left-content {
+        height: auto;
+        width: 100%;
+        position: relative;
+        top: 30%;
+        left: 0;
+    }
+
+    .make-yoga-partner br {
+        display: none;
+    }
+
+    .make-yoga-partner_left-content h2 {
+        font-size: 28px;
+        text-align: center;
+        line-height: 40px;
+        padding: 0px 25px;
+    }
+
+    .make-yoga-partner_left-content p {
+        width: 100%;
+        margin-top: 20px;
+        font-size: 17px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .make-yoga-partner_right-content {
+        height: 200px;
+        width: 100%;
+        position: relative;
+        top: 0px;
+        right: 0px;
+    }
+
+    .make-yoga-partner_right-content button {
+        height: 40px;
+        width: 180px;
+        margin: 18px auto;
+        padding: 10px;
+    }
+
+    .make-yoga-partner_right-content button a {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .make-yoga-partner_right-content p {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .footer_content {
+        height: 500px;
+        background-color: #242020;
+        padding: 0px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-content: center;
+        box-shadow: 5px 5px 10px 10px rgb(175, 173, 173);
+    }
+
+    .footer_content1,
+    .footer_content2,
+    .footer_content3,
+    .footer_content4,
+    .footer_content5,
+    .footer_content6 {
+        height: 200px;
+        width: 30%;
+        height: auto;
+        border: 1px solid rgb(44, 43, 43);
+    }
+
+    .footer_content1,
+    .footer_content2,
+    .footer_content3 {
+        margin: 10px 0px 30px 0px;
+    }
+
+    .d-class ul .ul-heading {
+        color: #777977;
+        height: 40px;
+        font-size: 18px;
+        margin-bottom: 20px;
+        padding-left: 0;
+    }
+
+    .d-class ul li {
+        /* background-color: gray; */
+        /* margin-bottom: 5px; */
+    }
+
+    .d-class li a {
+        color: #7b83f8;
+        font-size: 13px;
+        padding-left: 5px;
+    }
+
+    .d-class li a:hover {
+        text-decoration: underline rgb(133, 130, 130);
+    }
+
+    .size-padding ul .ul-heading,
+    .size-padding li a {
+        padding-left: 0px;
+    }
+
+    .footer_copyright-section {
+        background-color: #242020;
+        border-top: 1px solid rgb(26, 23, 23);
+    }
+
+    .footer_copyright-section p {
+        color: #A9AAA9;
+        font-size: 13px;
+        font-weight: 400;
+    }
+}
